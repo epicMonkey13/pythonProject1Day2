@@ -1,0 +1,17 @@
+a = ("and", "or", "has", "hello")
+print(a)
+a = ("and", "or", "has", "hello", "and", "or", "has", "hello")
+
+print(a)
+print(len(a))
+print(type(a))
+b = tuple(("apple", "banana"))
+print(b)
+b = list([1, 2, 3, 4])
+print(b)
+xyz = ("this")
+print(xyz)
+print(type(xyz))
+var = ("this",) #comma after the element can be considered as tuple
+print(var)
+print(type(var))
